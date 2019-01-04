@@ -18,8 +18,8 @@ When the list of files becomes too long, the last ones will fall off the screen.
 All potential problems are documented in the code with a 'todo' and can be tackled in a few minutes to a few hours depending on the problem. I've tried to comment as verbose as possible.
 
 To build, the repo needs Juce and HybridAPI installed in the same root directory
-https://github.com/WeAreROLI/JUCE
-https://github.com/jorisdejong/HybridApi
+- https://github.com/WeAreROLI/JUCE
+- https://github.com/jorisdejong/HybridApi
 
 
 
