@@ -7,7 +7,7 @@
 */
 
 #include "MainComponent.h"
-#include "../../HybridApi/Arena/ResXmlParser.h"
+#include "../../HybridApi/Arena/CLip/ClipParser.h"
 
 //==============================================================================
 MainComponent::MainComponent()
@@ -88,10 +88,10 @@ void MainComponent::timerCallback()
 
 void MainComponent::buttonClicked( Button * )
 {
-	//ResXmlParser checks the Resolume config file for the current composition and ass file
-	//ResXmlParser is part of HybridAPI: https://github.com/jorisdejong/HybridApi
+	//ClipParser checks the Resolume config file for the current composition and ass file
+	//ClipParser is part of HybridAPI: https://github.com/jorisdejong/HybridApi
 	//HybridAPI has a bunch of classes and functions to get info from Resolume and to deal with common taskss
-	ResXmlParser parser; 
+	ClipParser parser; 
 
 	triggers.clear();
 	for ( auto clip : parser.getClips() ) //getClips parses the current comp file and returns an array with info about the clips

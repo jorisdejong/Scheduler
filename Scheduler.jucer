@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="yygTlf" name="Scheduler" projectType="guiapp" jucerVersion="5.3.2">
+<JUCERPROJECT id="yygTlf" name="Scheduler" projectType="guiapp" jucerVersion="5.4.1">
   <MAINGROUP id="g0JKcq" name="Scheduler">
     <GROUP id="{3F089E14-A045-3C86-E250-F65C77C5EF2A}" name="Source">
+      <GROUP id="{2132DCB6-E2DA-859E-3BCC-D2A671044625}" name="Clip">
+        <FILE id="AE89Cl" name="Clip.cpp" compile="1" resource="0" file="../HybridApi/Arena/Clip/Clip.cpp"/>
+        <FILE id="fGr4Qd" name="Clip.h" compile="0" resource="0" file="../HybridApi/Arena/Clip/Clip.h"/>
+        <FILE id="Tfh52Q" name="ClipParser.cpp" compile="1" resource="0" file="../HybridApi/Arena/Clip/ClipParser.cpp"/>
+        <FILE id="IhtUE6" name="ClipParser.h" compile="0" resource="0" file="../HybridApi/Arena/Clip/ClipParser.h"/>
+      </GROUP>
       <FILE id="bFqOqE" name="ResXmlParser.cpp" compile="1" resource="0"
             file="../HybridApi/Arena/ResXmlParser.cpp"/>
       <FILE id="ykHYBw" name="ResXmlParser.h" compile="0" resource="0" file="../HybridApi/Arena/ResXmlParser.h"/>

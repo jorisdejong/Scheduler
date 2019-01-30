@@ -152,6 +152,7 @@
 #ifndef    JUCE_WIN_PER_MONITOR_DPI_AWARE
  //#define JUCE_WIN_PER_MONITOR_DPI_AWARE 1
 #endif
+
 //==============================================================================
 #ifndef    JUCE_STANDALONE_APPLICATION
  #if defined(JucePlugin_Name) && defined(JucePlugin_Build_Standalone)

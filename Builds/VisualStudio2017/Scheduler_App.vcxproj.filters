@@ -2,6 +2,9 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Scheduler\Source\Clip">
+      <UniqueIdentifier>{5E53C140-2B5E-2929-E5AB-9E3EB12BFC06}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Scheduler\Source">
       <UniqueIdentifier>{75743241-4134-C885-0866-E6502A189145}</UniqueIdentifier>
     </Filter>
@@ -202,6 +205,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\HybridApi\Arena\Clip\Clip.cpp">
+      <Filter>Scheduler\Source\Clip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HybridApi\Arena\Clip\ClipParser.cpp">
+      <Filter>Scheduler\Source\Clip</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\HybridApi\Arena\ResXmlParser.cpp">
       <Filter>Scheduler\Source</Filter>
     </ClCompile>
@@ -1410,6 +1419,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\HybridApi\Arena\Clip\Clip.h">
+      <Filter>Scheduler\Source\Clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HybridApi\Arena\Clip\ClipParser.h">
+      <Filter>Scheduler\Source\Clip</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\HybridApi\Arena\ResXmlParser.h">
       <Filter>Scheduler\Source</Filter>
     </ClInclude>
