@@ -1,3 +1,5 @@
+Download: https://github.com/jorisdejong/Scheduler/releases
+
 Scheduler is a helper app to trigger clips in Resolume at a specific time. You change the name of a clip in Resolume to the time you want it triggered. The app will keep a list of these clips. It will then use the system clock to trigger each clip at the right moment. At midnight, it will reset and start all over again.
 
 It expects the following:
