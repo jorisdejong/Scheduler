@@ -44,7 +44,7 @@ void MainComponent::paint( Graphics& g )
 		g.drawText( trigger->defaultName, 10, 60 + triggers.indexOf( trigger ) * 20, 300, 20, Justification::left, true );
 		//todo: sort the triggers based on their time, instead of the order they have in the comp file
 		//todo: make this a scrollable list when there are more triggers than the window can hold
-		int hh = floor( trigger->time / 60 );
+		int hh = trigger->time / 60;
 		int mm = trigger->time % 60;
 
 		//if a clip's trigger time has passed, paint it green, otherwise red
