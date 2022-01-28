@@ -23,7 +23,7 @@ To build, the repo needs Juce and HybridAPI installed in the same root directory
 - https://github.com/WeAreROLI/JUCE
 - https://github.com/jorisdejong/HybridApi
 
-Scheduler was kept alive by a donation from Life Is Art Studios - https://www.liastudios.com/
+Scheduler was kept alive by a kind donation from Life Is Art Studios - https://www.liastudios.com/
 
 
 
