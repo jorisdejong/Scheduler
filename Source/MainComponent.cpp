@@ -14,9 +14,9 @@ MainComponent::MainComponent()
 {
 	connect( "127.0.0.1", 7000 ); //todo: throw an error when we can't open the osc port
 
-	check = new TextButton( "Check" );
+	check = std::make_unique<TextButton>( "Check" );
 	check->addListener( this );
-	addAndMakeVisible( check );
+	addAndMakeVisible( check.get() );
 	check->triggerClick(); //do the first check, this will populate the array of clips we need to trigger
 	
 	pDay = Time::getCurrentTime().getDayOfYear(); //set the day to the current day

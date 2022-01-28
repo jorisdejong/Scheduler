@@ -45,7 +45,7 @@ private:
 	};
 
 	OwnedArray<ClipTrigger> triggers;
-	ScopedPointer<TextButton> check;
+	std::unique_ptr<TextButton> check;
 
 	int pDay = -1;
  
